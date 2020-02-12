@@ -1,0 +1,204 @@
+body {
+  background-color: white;
+}
+.contact {
+  background-color: white;
+  height: 200px;
+  width: 100vw;
+  position: relative;
+  border-top: 5px black solid;
+  display: flex;
+
+  padding: 25px 300px;
+}
+.contact div {
+  display: flex;
+  margin: 75px 50px;
+}
+.contact img {
+  width: 200px;
+  height: 150px;
+}
+.contact .fas {
+  font-size: 1.7rem;
+  margin: 7px 30px;
+}
+.contact p {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+#triangle {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-left: 50px solid transparent;
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+.header {
+  background-color: rgb(22, 22, 22);
+  height: 50px;
+  width: 60vw;
+  position: absolute;
+  right: 0;
+  color: rgba(255, 255, 255, 0.671);
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+  font-size: 0.7rem;
+  z-index: 2;
+  display: flex;
+}
+.sociale {
+  margin-right: 25%;
+  display: flex;
+  padding: 15px;
+}
+.diver {
+  height: 50px;
+  width: 1px;
+  margin: 0 5px;
+  background-color: white;
+  position: relative;
+  z-index: 5;
+  opacity: 0.2;
+}
+
+.fab {
+  color: white;
+  opacity: 0.8;
+  margin: 20px 10px;
+}
+.fab:hover {
+  opacity: 1;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.753);
+  padding: 20px 30px;
+  font-size: 12px;
+}
+.nav-contact {
+  display: flex;
+  padding: 2px 5px;
+  text-align: center;
+}
+.nav-contact a,
+.nav-contact div {
+  color: white;
+  opacity: 0.8;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav-contact a:hover {
+  opacity: 1;
+}
+ul > li a {
+  border-top: 4px transparent solid;
+}
+ul > li a:hover {
+  border-top: 4px #ffcc69 solid;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.nawigacja {
+  background-color: rgb(56, 114, 240);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  align-items: center;
+  padding: 0 15%;
+  width: 100%;
+}
+.quote {
+  margin-left: 150px;
+  padding: 0 25px;
+  background-color: #f3ab1c;
+  transition-property: all;
+  transition-duration: 0.3s;
+  border-top: none;
+}
+.quote:hover {
+  background-color: rgb(48, 97, 202);
+  border-top: none !important;
+}
+.quote a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none !important;
+}
+
+/* slider */
+.d-block {
+  position: relative;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(60%);
+}
+.img01 {
+  background-image: url('1.jpg');
+}
+.img02 {
+  background-image: url('2.jpg');
+}
+.img03 {
+  background-image: url('3.jpg');
+}
+.carousel-text {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  color: white;
+  z-index: 3;
+  width: 45%;
+  text-align: left;
+}
+.carousel-text h1 {
+  font-size: 5rem;
+  margin-top: 25%;
+}
+.carousel-text h2 {
+  color: #f3ab1c;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  margin: 10px 0;
+}
+
+.carousel-text p {
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  width: 75%;
+  margin: 30px 0;
+}
+.btn {
+  height: 40px;
+  margin: 15px 0;
+  padding: 6px 50px;
+  font-size: 0.8rem;
+  border-radius: 0;
+  text-align: center;
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 100px;
+  background-size: 15px;
+  background-color: black;
+  transition: ease-in-out all 0.2s;
+  position: absolute;
+}
+.carousel-control-prev-icon {
+  left: 0;
+}
+.carousel-control-next-icon {
+  right: 0;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  filter: invert(100);
+}
